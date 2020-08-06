@@ -1,0 +1,116 @@
+html {
+    background-color: #f1faee;
+}
+
+#clipboard {
+    background-color: #ffffff;
+    border: 5px solid #f7fff7;
+    width: 641px;
+    height: 50px;
+    border-radius: 50px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: #f7fff7;
+    margin: 0 auto;
+
+
+}
+
+#allInput {
+    margin: 0 auto;
+    /* margin-top: 175px; */
+    background-color: #f7fff7;
+    /* box-shadow: 20px #9AA0AC; */
+    /* border-bottom: 5px solid grey; */
+    bottom: 50%;
+    /* box-shadow: 0px 20px 0px 0px #9AA0AC; */
+    padding: 20px 20px 15px 20px;
+    width: 610px;
+    border-radius: 10px;
+    
+}
+
+
+
+#buttonAndInput {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    width: 550px;
+}
+#theInput {
+    
+    outline: none;
+    width: 480px;
+}
+
+#theButton {
+    width: 45px;
+    margin-left: 20px;
+}
+
+#listLocation {
+    background-color: #ffffff;
+    border: 7px solid #f7fff7;
+    width: 637px;
+    border-bottom: none;
+    margin: 0 auto;
+    height: 640px;
+    overflow-y: scroll;
+
+
+}
+
+/* #rectangle {
+    border-bottom: 400px solid blue;
+    border-left: 20vw solid transparent;
+    border-right: 20vw solid transparent;
+    height: 50%;
+    width: 50vw;
+} */
+
+.userType {
+    background-color: #E9EAED;
+    border-radius: 2px;
+    padding: 5px;
+    margin: 0 auto;
+    list-style-type: none;
+    /* right: 20px; */
+    /* text-align: left; */
+    /* right: 20px; */
+    margin-top: 10px;
+    width: 500px;
+    
+    /* white-space: pre-line; */
+}
+
+.doneType {
+    background-color: #9FC4D1;
+    border-radius: 2px;
+    padding: 5px;
+    margin: 0 auto;
+    margin-top: 10px;
+    list-style-type: none;
+    /* left: 20px; */
+    width: 500px;
+}
+
+.cbType {
+    background-color: #AED9E0;
+    border-radius: 2px;
+    padding: 5px;
+    margin: 0 auto;
+    margin-top: 10px;
+    list-style-type: none;
+    width: 500px;
+    /* min-width: 50px; */
+
+}
+
+.listType {
+    /* width: 450px; */
+    text-align: left;
+   
+}
+
+/* I have to figure out why this occured */
